@@ -68,7 +68,7 @@ You can test the new command as we did before by launching debug but this time u
 ## Displaying a basic webview
 
 As we are now able to select the file we want to edit we can start adding a GUI using the Webviews.
-The api [documentation](https://code.visualstudio.com/api/extension-guides/webview) for webviews is very well done and could help you if you need more details for this part .
+The [api documentation for webviews](https://code.visualstudio.com/api/extension-guides/webview) is very well done and could help you if you need more details for this part .
 
 For now we will begin by creating a folder named view and a typescript file ViewLoader.ts where we will manage our webview.
 In this class we use "createWebviewPanel" to create the webview and then set the content of the webview with "\_panel.webview.html".
