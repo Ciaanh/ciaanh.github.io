@@ -5,8 +5,8 @@ url: "https://ciaanh.github.io"
 twitter_username: ciaanh
 github_username: ciaanh
 
-remote_theme: poole/lanyon
+#remote_theme: poole/lanyon
 #remote_theme: Ciaanh/awesome-jekyll-theme
-#theme: minima
+theme: dinky
 
 google_analytics: UA-155086691-1
