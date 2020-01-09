@@ -1,5 +1,5 @@
 ---
-#layout: post
+layout: post
 title: "Reactception : extending a VS Code extension with Webviews and React"
 
 author: Ciaanh
