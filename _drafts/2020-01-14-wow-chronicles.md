@@ -20,18 +20,23 @@ It felt really frustrating and one day came the WoW Chronicles book series and t
 
 ## Diving into addons
 
-As I am a developer I knew I have some kind of skills that I could use for this project but 
+As I am a developer I knew I have some kind of skills that I could use for this project but where to start ?
 
-ace
+explore existing addon : total rp for interface, handy note for modules
+as i'm not into xml i tested wow ace
+
 trys and errors
+- all is code and it's difficult to separate responsibility
+- limit of designing with wow ace (make it nice)
+- limit of designing interface timeline (make it work)
 
-quit the dev
+after 6 months quit the dev
 come back
 
 start over from the ground
 making the interface
 making the db
 making the modules
-publish it
+publish it 01/2020
 
 trying to gather the community
