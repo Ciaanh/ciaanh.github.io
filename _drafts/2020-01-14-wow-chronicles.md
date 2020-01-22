@@ -20,7 +20,18 @@ It felt really frustrating and one day came the WoW Chronicles book series and t
 
 ## Diving into addons
 
-As I am a developer I knew I have some kind of skills that I could use for this project but where to start ?
+As I am a developer I knew I have basic skills that I could use for this project but where to start ?
+I had an idea of what I wanted, a simple frame with three areas:
+- a timeline to select a date
+- a list of events for the selected date
+- a detailed view to display informations about the selected event
+
+ ![Interface mockup](/posts_content/chronicles-mockup.png)
+
+I searched for infos and tutorial but except the book WoW Programming by By James Whitehead II and Rick Roe there is not much to start with so I began to look at existing addon.
+The first one I began to tear appart were Total RP and Handy Notes
+
+http://wowprogramming.com/
 
 explore existing addon : total rp for interface, handy note for modules
 as i'm not into xml i tested wow ace
