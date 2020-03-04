@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-#     bundle exec jekyll serve
+# bundle exec jekyll serve
 
 # To upgrade, run `bundle update github-pages`.
 gem "github-pages", "~> 203", group: :jekyll_plugins
@@ -15,4 +15,3 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
-

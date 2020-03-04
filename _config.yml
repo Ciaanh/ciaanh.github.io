@@ -5,9 +5,21 @@ url: "https://ciaanh.github.io"
 twitter_username: ciaanh
 github_username: ciaanh
 
-#remote_theme: Ciaanh/awesome-jekyll-theme
-#remote_theme: pages-themes/slate
-remote_theme: cyevgeniy/jekyll-true-minimal
+share:
+  facebook: false
+  twitter: true
+  gplus: false
+  linkedin: true
+  pinterest: false
+  email: false
 
+google_analytics_key: UA-155086691-1
 
-google_analytics: UA-155086691-1
+permalink: /:year/:month/:title/
+
+markdown: kramdown
+kramdown:
+  input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
+  hard_wrap: true
+
+exclude: ['README.md', 'LICENSE']
