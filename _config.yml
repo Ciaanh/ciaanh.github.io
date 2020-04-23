@@ -1,25 +1,73 @@
 title: Ciaanh's blog
 
 baseurl: ""
+description: "Welcome to my notebook where you will find ideas and stories about software development, video games my hobbies and a bit about me."
 url: "https://ciaanh.github.io"
 twitter_username: ciaanh
 github_username: ciaanh
-
-share:
-  facebook: false
-  twitter: true
-  gplus: false
-  linkedin: true
-  pinterest: false
-  email: false
-
-google_analytics_key: UA-155086691-1
-
+google_analytics: UA-155086691-1
+include: ["_pages"]
 permalink: /:year/:month/:title/
 
-markdown: kramdown
-kramdown:
-  input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
-  hard_wrap: true
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
 
-exclude: ['README.md', 'LICENSE']
+# bundle exec jekyll serve --drafts
+
+authors:
+  ciaanh:
+    name: Ciaanh
+    display_name: Ciaanh
+    gravatar: c4cb2e35de98954a2ef1f30fe46984cb
+    #email: 
+    web: https://ciaanh.github.io/
+    twitter: https://twitter.com/ciaanh
+    description: ""
+  
+
+
+
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-figure
+
+  # Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+
+    # Pagination 
+paginate: 6
+paginate_path: /page:num/
+    
+# Other
+highlighter: none
+markdown: kramdown
+# kramdown:
+#    syntax_highlighter_opts:
+#       disable : true
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "disabled"
+
+# Post Author Box ("enabled" or "disabled")
+authorbox: "disabled"
+
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
+
+
+port: 4001

@@ -1,0 +1,7 @@
+Theme License: MIT (https://bootstrapstarter.com/license/)
+
+Credits:
+- Theme by Sal @wowthemesnet 
+- Letter PNG Designed By starwash from <a href="https://pngtree.com/">Pngtree.com</a>
+- Bootstrap, licensed MIT, docs CC BY 3.0.
+- Unsplash images.

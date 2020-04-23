@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Reactception : extending a VS Code extension with Webviews and React"
-
 author: Ciaanh
-categories: development
+categories: [ Development ]
+image: assets/images/posts/GitHub-chill.jpg
 tags: VScode extension react webview
+beforetoc: "VS code has become quite popular among coders these days. Being very open to modifications using \"extension\" really helped to expand the possibilities of what you can do with VS Code."
 toc: true
 ---
 
-VS code has become quite popular among coders these days. Being very open to modifications using "extension" really helped to expand the possibilities of what you can do with VS Code.
 Lately I was experimenting with webviews and I had one of this "what if" moment :
 what if we put a React application inside a webview inside an extension inside VS Code
 
@@ -38,7 +38,7 @@ You will be asked several questions to prepare everything, I chose a Typescript 
 
 Open the project in VS Code and here we have a basic "Hello world !" extension that you can test by pressing F5 to enter debug mode which will launch a new VS Code window where the extension is available, just press Ctrl+maj+P to display the command palette and type in Hello World.
   
- ![Hello world](/posts_content/hello_world.gif)
+ ![Hello world](/assets/images/posts/hello_world.gif)
 
 (you can find this part in the official startup guide for [VS Code extensions](https://code.visualstudio.com/api/get-started/your-first-extension) )
 
@@ -83,7 +83,8 @@ Before testing the basic webview we just need to call the ViewLoader in our exte
 
 And now we can debug our extension and see the webview content.
   
- [webview-demo.gif]
+ ![Webview demo](/assets/images/posts/webview-demo.gif)
+
 
 ## Create a react application inside our extension project
 

@@ -1,21 +1,15 @@
-{% include header.html %}
+---
+layout: default
+---
 
-    <div class="wrapper">
-      <div class="content">
-        <div class="container container-center">
-          <div class="row">
-            <div class="col-md-8 offset-md-1">
-              <div class="card">
-                {{ content }}
-              </div>
-            </div>
-            <div class="col-md-3 hidden-xs">
-              {% include sidebar.html %}
-            </div>
-          </div>
-        </div>
-      </div>
-      {% include footer.html %}
+<div class="page-single">
+    <div class="entry-header">       
+        <h1 class="posttitle">{{ page.title }}</h1>        
     </div>
-  </body>
-</html>
+</div>
+
+<!-- Featured Image -->
+{% include featured-image.html %}
+
+<!-- Content -->
+{% include article.html %}
