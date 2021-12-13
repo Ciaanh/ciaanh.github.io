@@ -15,8 +15,12 @@ group :jekyll_plugins do
   gem 'jekyll-archives'
   gem 'jekyll-figure'
   gem 'bootstrap', '~> 4.4.1'
-  gem 'kramdown'
+  gem 'kramdown', ">= 2.3.1"
   gem 'rouge'
+  gem "addressable", ">= 2.8.0"
+  gem "actionpack", ">= 6.0.4.1"
+  gem "nokogiri", ">= 1.12.5"
+  gem "actionview", ">= 6.0.3.3"
 end
 
 # Performance-booster for watching directories on Windows
