@@ -1,9 +1,12 @@
 title: Ciaanh's blog
 
-baseurl: ""
-description: >-
-  Welcome to my notebook where you will find ideas and stories about software development, video games my hobbies and a bit about me.
 tagline: ¯\_(ツ)_/¯
+
+description: >-
+  A notebook where you will find ideas and stories about software development, video games, my hobbies.
+
+baseurl: ""
+
 url: "https://ciaanh.github.io"
 github:
   username: ciaanh
@@ -13,8 +16,6 @@ theme: jekyll-theme-chirpy
 
 permalink: /:year/:month/:title/
 
-# favicon: "assets/img/favicon.ico"
-
 lang: en
 prefer_datetime_locale:
 timezone: Europe/Paris
@@ -23,7 +24,6 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Ciaanh
-  email:
   links:
     - https://github.com/Ciaanh
     - https://twitter.com/ciaanh
@@ -42,7 +42,7 @@ theme_mode: dark # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: 'assets/img/Hradn_small.png'
+avatar: "assets/img/Hradn_small.png"
 
 # boolean type, the global switch for ToC in posts.
 toc: true

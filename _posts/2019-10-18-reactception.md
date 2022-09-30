@@ -1,15 +1,8 @@
 ---
-layout: post
-
 title: "Reactception : extending a VS Code extension with Webviews and React"
-image: 
-
-author: Ciaanh
+author: ciaanh
 categories: [ Development ]
-tags: VScode extension React webview
-
-toc: true
-beforetoc: "VS code has become quite popular among coders these days. Being very open to modifications using \"extension\" really helped to expand the possibilities of what you can do with VS Code."
+tags: [VScode, extension, React, webview]
 ---
 
 Lately I was experimenting with webviews and I had one of this "what if" moment :
