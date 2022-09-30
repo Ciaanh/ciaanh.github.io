@@ -41,7 +41,7 @@ You will be asked several questions to prepare everything, I chose a Typescript 
 
 Open the project in VS Code and here we have a basic "Hello world !" extension that you can test by pressing F5 to enter debug mode which will launch a new VS Code window where the extension is available, just press Ctrl+maj+P to display the command palette and type in Hello World.
   
- ![Hello world](/assets/images/posts/hello_world.gif)
+ ![Hello world](/assets/img/posts/hello_world.gif)
 
 (you can find this part in the official startup guide for [VS Code extensions](https://code.visualstudio.com/api/get-started/your-first-extension) )
 
@@ -86,7 +86,7 @@ Before testing the basic webview we just need to call the ViewLoader in our exte
 
 And now we can debug our extension and see the webview content.
   
- ![Webview demo](/assets/images/posts/webview-demo.gif)
+ ![Webview demo](/assets/img/posts/webview-demo.gif)
 
 
 ## Create a react application inside our extension project

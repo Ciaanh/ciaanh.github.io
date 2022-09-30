@@ -13,7 +13,7 @@ theme: jekyll-theme-chirpy
 
 permalink: /:year/:month/:title/
 
-# favicon: "assets/images/favicon.ico"
+# favicon: "assets/img/favicon.ico"
 
 lang: en
 prefer_datetime_locale:
@@ -34,15 +34,15 @@ google_analytics:
 
 theme_mode: dark # [light|dark]
 
-# The CDN endpoint for images.
+# The CDN endpoint for img.
 # Notice that once it is assigned, the CDN url
-# will be added to all image (site avatar & posts' images) paths starting with '/'
+# will be added to all image (site avatar & posts' img) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: 'assets/images/Hradn_small.png'
+avatar: 'assets/img/Hradn_small.png'
 
 # boolean type, the global switch for ToC in posts.
 toc: true
@@ -121,7 +121,7 @@ defaults:
       layout: page
       permalink: /:title/
   - scope:
-      path: assets/images
+      path: assets/img/favicons
     values:
       swcache: true
   - scope:

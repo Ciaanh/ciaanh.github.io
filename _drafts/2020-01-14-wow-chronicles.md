@@ -26,7 +26,7 @@ I had an idea of what I wanted, a simple frame with three areas:
 - a list of events for the selected date
 - a detailed view to display informations about the selected event
 
- ![Interface mockup](/assets/images/posts/chronicles-mockup.png)
+ ![Interface mockup](/assets/img/posts/chronicles-mockup.png)
 
 I searched for infos and tutorial but except the book WoW Programming by By James Whitehead II and Rick Roe there is not much to start with so I began to look at existing addon.
 The first one I began to tear appart were Total RP and Handy Notes
